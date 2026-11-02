@@ -1,4 +1,4 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
-export default defineConfig({ plugins: [react(), tailwindcss()], base: '/caesar-experience/', test: { environment: 'jsdom' } })
+export default defineConfig({ plugins: [react(), tailwindcss()], base: '/recipes/', test: { environment: 'jsdom' } })

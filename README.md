@@ -23,7 +23,7 @@ npm run build
 
 ## Публикация
 
-Создайте репозиторий `caesar-experience`, включите **Settings → Pages → Build and deployment → GitHub Actions**, затем отправьте код в ветку `main`. Workflow `.github/workflows/deploy.yml` соберёт и опубликует `dist`. В `vite.config.ts` задан `base: '/caesar-experience/'`; при другом имени репозитория измените этот путь.
+Используйте репозиторий `recipes`, включите **Settings → Pages → Build and deployment → GitHub Actions**, затем отправьте код в ветку `main`. Workflow `.github/workflows/deploy.yml` соберёт и опубликует `dist`. В `vite.config.ts` задан `base: '/recipes/'`; при другом имени репозитория измените этот путь.
 
 ## Фотографии
 
